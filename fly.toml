@@ -22,7 +22,7 @@ primary_region = "lhr"
   processes = ["app"]
 
 [env]
-  DATABASE_URL = mysql://z0tf1fg6kbkdqio1271x:pscale_pw_vd3va2sCV8sREdpdwD0IaVjvLukMDw1UkYlb3r9YN9B@aws.connect.psdb.cloud/t3-twitter?sslaccept=strict
+  DATABASE_URL = "mysql://z0tf1fg6kbkdqio1271x:pscale_pw_vd3va2sCV8sREdpdwD0IaVjvLukMDw1UkYlb3r9YN9B@aws.connect.psdb.cloud/t3-twitter?sslaccept=strict"
 
 [[vm]]
   cpu_kind = "shared"
